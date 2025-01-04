@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="DetoursAPI.cpp" />
+    <ClCompile Include="EQClasses.cpp" />
+    <ClCompile Include="EQFunctionDetours.cpp" />
+    <ClCompile Include="eqgame.cpp" />
+    <ClCompile Include="EQUtils.cpp" />
+    <ClCompile Include="FPSLimit.cpp" />
+    <ClCompile Include="IClassFactory.cpp" />
+    <ClCompile Include="IDirectInput8A.cpp" />
+    <ClCompile Include="IDirectInput8Hook.cpp" />
+    <ClCompile Include="IDirectInput8W.cpp" />
+    <ClCompile Include="IDirectInputDevice8A.cpp" />
+    <ClCompile Include="IDirectInputDevice8Hook.cpp" />
+    <ClCompile Include="IDirectInputDevice8W.cpp" />
+    <ClCompile Include="IDirectInputEffect.cpp" />
+    <ClCompile Include="IDirectInputEnumDevice.cpp" />
+    <ClCompile Include="IDirectInputEnumEffect.cpp" />
+    <ClCompile Include="InterfaceQuery.cpp" />
+    <ClCompile Include="MQ2ChatHook.cpp" />
+    <ClCompile Include="MQ2CleanUI.cpp" />
+    <ClCompile Include="MQ2CommandAPI.cpp" />
+    <ClCompile Include="MQ2Commands.cpp" />
+    <ClCompile Include="MQ2Data.cpp" />
+    <ClCompile Include="MQ2DataAPI.cpp" />
+    <ClCompile Include="MQ2DataTypes.cpp" />
+    <ClCompile Include="MQ2DataVars.cpp" />
+    <ClCompile Include="MQ2DetourAPI.cpp" />
+    <ClCompile Include="MQ2Globals.cpp" />
+    <ClCompile Include="MQ2ItemDisplay.cpp" />
+    <ClCompile Include="MQ2Labels.cpp" />
+    <ClCompile Include="MQ2Map.cpp" />
+    <ClCompile Include="MQ2MapAPI.cpp" />
+    <ClCompile Include="MQ2MapCommands.cpp" />
+    <ClCompile Include="MQ2Mouse.cpp" />
+    <ClCompile Include="MQ2ParseAPI.cpp" />
+    <ClCompile Include="MQ2PluginHandler.cpp" />
+    <ClCompile Include="MQ2Pulse.cpp" />
+    <ClCompile Include="MQ2Spawns.cpp" />
+    <ClCompile Include="MQ2Utilities.cpp" />
+    <ClCompile Include="imgui\imgui.cpp" />
+    <ClCompile Include="imgui\imgui_demo.cpp" />
+    <ClCompile Include="imgui\imgui_draw.cpp" />
+    <ClCompile Include="imgui\imgui_impl_dx9.cpp" />
+    <ClCompile Include="imgui\imgui_impl_win32.cpp" />
+    <ClCompile Include="imgui\imgui_tables.cpp" />
+    <ClCompile Include="imgui\imgui_widgets.cpp" />
+    <ClCompile Include="AoT_Gui_Master.cpp" />
+    <ClCompile Include="AoT_Spell_UI.cpp" />
+    <ClCompile Include="AoT_Graphic_Builder.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="_options.h" />
+    <ClInclude Include="core_map.h" />
+    <ClInclude Include="core_zone.h" />
+    <ClInclude Include="core_npc.h" />
+    <ClInclude Include="core_luclin_models.h" />
+    <ClInclude Include="core_bazaar.h" />
+    <ClInclude Include="core_models.h" />
+    <ClInclude Include="core_init.h" />
+    <ClInclude Include="common.h" />
+    <ClInclude Include="EQClasses.h" />
+    <ClInclude Include="EQData.h" />
+    <ClInclude Include="EQDetours.h" />
+    <ClInclude Include="eqgame.h" />
+    <ClInclude Include="eqmac.h" />
+    <ClInclude Include="eqmac_functions.h" />
+    <ClInclude Include="EQUIStructs.h" />
+    <ClInclude Include="EQUtils.h" />
+    <ClInclude Include="grounds.h" />
+    <ClInclude Include="IClassFactory.h" />
+    <ClInclude Include="IDirectInput8A.h" />
+    <ClInclude Include="IDirectInput8Hook.h" />
+    <ClInclude Include="IDirectInput8W.h" />
+    <ClInclude Include="IDirectInputDevice8A.h" />
+    <ClInclude Include="IDirectInputDevice8Hook.h" />
+    <ClInclude Include="IDirectInputDevice8W.h" />
+    <ClInclude Include="IDirectInputEffect.h" />
+    <ClInclude Include="IDirectInputEnumDevice.h" />
+    <ClInclude Include="IDirectInputEnumEffect.h" />
+    <ClInclude Include="itemtypes.h" />
+    <ClInclude Include="MQ2Commands.h" />
+    <ClInclude Include="MQ2Globals.h" />
+    <ClInclude Include="MQ2Main.h" />
+    <ClInclude Include="MQ2Prototypes.h" />
+    <ClInclude Include="skills.h" />
+    <ClInclude Include="weapons.h" />
+    <ClInclude Include="xorstr.h" />
+    <ClInclude Include="imgui\imgui_internal.h" />
+    <ClInclude Include="imgui\imstb_rectpack.h" />
+    <ClInclude Include="imgui\imstb_textedit.h" />
+    <ClInclude Include="imgui\imstb_truetype.h" />
+    <ClInclude Include="imgui.h" />
+    <ClInclude Include="imconfig.h" />
+    <ClInclude Include="imgui_impl_dx9.h" />
+    <ClInclude Include="imgui_impl_win32.h" />
+    <ClInclude Include="AoT_Gui_Master.h" />
+    <ClInclude Include="AoT_Spell_UI.h" />
+    <ClInclude Include="AoT_Graphics_Builder.h" />
+    <ClInclude Include="stb_truetype.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="dinput8.def" />
+    <None Include="dsetup.def" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="License.txt" />
+  </ItemGroup>
+</Project>
